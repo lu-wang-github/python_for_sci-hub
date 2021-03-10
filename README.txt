@@ -7,7 +7,7 @@
 # 更新历史
 
 【2021-3-10】
-bug说明：今天下载文献，出现了一个小bug，提示为：title = div.find('i').get_text() AttributeError: 'NoneType' object has no attribute 'get_text' 
+bug说明：今天下载文献（doi:10.3390/w12092640），出现了一个小bug，提示为：title = div.find('i').get_text() AttributeError: 'NoneType' object has no attribute 'get_text' 
 （没有找到<i>标签），在sci-hub.exe中，就是程序没有任何反应，就自动关闭
 原因：翻看了具体的html源代码，发现代码里并没有有关文献的具体信息（上面的<i>标签就是为了获取文献的信息），所以才报错
 解决办法：建议遇到这种情况手动打开网站下载，暂时还没想到具体的解决方法
