@@ -6,6 +6,9 @@
 
 # 更新历史
 
+【2021-3-12】
+bug修复，针对【2021-3-10】的问题，做出修复。经过测试，已经恢复正常！ 版本为sci-hub desktop V1.1.exe
+
 【2021-3-10】
 bug说明：今天下载文献（doi:10.3390/w12092640），出现了一个小bug，提示为：title = div.find('i').get_text() AttributeError: 'NoneType' object has no attribute 'get_text' 
 （没有找到<i>标签），在sci-hub.exe中，就是程序没有任何反应，就自动关闭
@@ -13,4 +16,4 @@ bug说明：今天下载文献（doi:10.3390/w12092640），出现了一个小bu
 解决办法：建议遇到这种情况手动打开网站下载，暂时还没想到具体的解决方法
 
 【2021-3-3】
-上传程序
+上传自己的第一个程序，sci-hub.exe 为电脑端运行程序；sci-hub.py 为python的源代码，大家可以根据自己的实际需要做出调整！
