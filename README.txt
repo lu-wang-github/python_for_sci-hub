@@ -7,7 +7,7 @@
 # 更新历史
 
 【2021-3-12】
-bug修复，针对【2021-3-10】的问题，做出修复。经过测试，已经恢复正常！ 版本为sci-hub desktop V1.1.exe
+bug修复，针对【2021-3-10】的问题，做出修复。经过测试，已经恢复正常！ 版本为sci-hub desktop V1.1.exe，旧版的sci-hub.exe已删除
 
 【2021-3-10】
 bug说明：今天下载文献（doi:10.3390/w12092640），出现了一个小bug，提示为：title = div.find('i').get_text() AttributeError: 'NoneType' object has no attribute 'get_text' 
