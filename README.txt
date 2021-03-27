@@ -5,11 +5,14 @@
 
 
 # 更新历史
+【2021-3-27】
+bug修复，当下载个别文献时，程序会闪退。分析原因是文献题目中存在转义字符（\r, \n等），程序中已对这个问题做出修复。最新版本为sci-hub desktop V1.3.exe，旧版已删除
+
 【2021-3-24】
-bug修复，经过反馈，从昨天下午开始出现下载失败的问题（下载的pdf文件只有9kb）,经过测试，是user-agent出现了问题，错误状态码为503。修改内容如下：更换user-agent:Mozilla/5.0, 同时在里面加入sleep函数，为文件的获取过程提供缓冲时间。新版本为sci-hub desktop V1.2.exe，旧版已删除
+bug修复，经过反馈，从昨天下午开始出现下载失败的问题（下载的pdf文件只有9kb）,经过测试，是user-agent出现了问题，错误状态码为503。修改内容如下：更换user-agent:Mozilla/5.0, 同时在里面加入sleep函数，为文件的获取过程提供缓冲时间。最新版本为sci-hub desktop V1.2.exe，旧版已删除
 
 【2021-3-12】
-bug修复，针对【2021-3-10】的问题，做出修复。经过测试，已经恢复正常！ 版本为sci-hub desktop V1.1.exe，旧版的sci-hub.exe已删除
+bug修复，针对【2021-3-10】的问题，做出修复。经过测试，已经恢复正常！ 最新版本为sci-hub desktop V1.1.exe，旧版的sci-hub.exe已删除
 
 【2021-3-10】
 bug说明：今天下载文献（doi:10.3390/w12092640），出现了一个小bug，提示为：title = div.find('i').get_text() AttributeError: 'NoneType' object has no attribute 'get_text' 
