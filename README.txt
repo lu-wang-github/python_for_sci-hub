@@ -1,6 +1,6 @@
 # sci-hub desktop
 # 个人编写，若有错误，请发邮件反馈1757765654@qq.com
-# 利用python编写程序，输入doi号，自动下载文献（命名方式：时间+题目+作者）
+# 利用python编写程序，输入doi号，自动下载文献（命名方式：时间+题目+作者），文献下载全部基于sci-hub网址里的内容，如有侵权，请联系删除！
 # sci-hub网址：https://scihub.wikicn.top/
 
 
